@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Phone from "./component2/Phone/Phone";
+import Cosmetics from "./component3/Cosmetics/Cosmetics";
+// import Countries from "./Components/Countries/Countries";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Countries></Countries> */}
+      {/* <Phone phoneName="Nokia" model="1100" title="best phone best price" /> */}
+      <Cosmetics />
     </div>
   );
 }
